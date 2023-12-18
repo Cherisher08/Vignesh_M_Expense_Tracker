@@ -34,6 +34,6 @@ Start the server
 
 ## Authors
 
-- [@Vignesh-Cherisher](https://github.com/Vignesh-Cherisher)
+- [@Cherisher08](https://github.com/Vignesh-Cherisher)
   Made By 🅓🅔🅥🅥🅘🅒😉
 
