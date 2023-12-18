@@ -1,0 +1,45 @@
+{
+  "name": "vignesh_m_webtips_assignments",
+  "version": "1.0.0",
+  "description": "This will act as a starter repository for **WebTips** projects",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,html,css}\"",
+    "lintJS": "eslint \"src/**/*.js\"",
+    "lintHTML": "eslint \"src/**/*.html\"",
+    "lintCSS": "stylelint \"src/**/*.css\"",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --findRelatedTests tests/unit-tests/",
+    "start": "node express-server.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "save-dev": "^0.0.1-security",
+    "weather_forecast_backend": "^0.0.0"
+  },
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.19.1",
+    "@html-eslint/parser": "^0.19.1",
+    "@playwright/test": "^1.37.0",
+    "eslint": "^8.47.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jsdoc": "^46.4.6",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "express": "^4.18.2",
+    "jest": "^29.7.0",
+    "prettier": "3.0.2",
+    "standard": "^17.1.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}
